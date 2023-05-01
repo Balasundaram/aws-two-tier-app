@@ -1,0 +1,6 @@
+name: aws-two-tier-app
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A minimal AWS Python Pulumi program for deploying two tier app.

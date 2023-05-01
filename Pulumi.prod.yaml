@@ -1,0 +1,6 @@
+config:
+  aws:region: us-east-1
+  tags:
+    app: tech_app
+  frontend_app: "infra-web"
+  backend_api: "infra-api"
