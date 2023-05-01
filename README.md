@@ -5,7 +5,7 @@ Steps to deploy the application and its infrastructure, follow these steps:
 1. Create a new stack, which is an isolated deployment target for this example:
 
     ```bash
-    $ pulumi stack init dev
+    $ pulumi stack init prod
     ```
 
 1. Set your desired AWS region:
