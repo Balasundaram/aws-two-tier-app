@@ -22,4 +22,4 @@ Steps to deploy the application and its infrastructure, follow these steps:
 
 ## Architecture Diagram
 
-![airtek_aws drawio](https://user-images.githubusercontent.com/1333271/235407125-1f57f56b-230c-4663-b273-cda30f9c28ad.png)
+![airtek_aws drawio (1)](https://user-images.githubusercontent.com/1333271/235488005-3370985b-ff9e-416e-bce6-2c91a1b0ec76.png)
