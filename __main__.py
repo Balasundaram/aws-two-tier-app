@@ -93,5 +93,9 @@ frontend_api=frontend.FrontendService(frontend_app_name,
 	opts=ResourceOptions(depends_on=[backend_api]),
 )
 
-export('api_url', backend_api.api_alb.dns_name)
-export('web_url', frontend_api.web_alb.dns_name)
+export('api_url', backend_api.api_alb.dns_name.apply(
+    lambda dns_name: f"http://{dns_name}"
+))
+export('web_url', frontend_api.web_alb.dns_name.apply(
+    lambda dns_name: f"http://{dns_name}"
+))
