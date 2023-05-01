@@ -19,6 +19,8 @@ Steps to deploy the application and its infrastructure, follow these steps:
 
     ```bash
     $ pulumi up
+    
+Please note: AWS credentials used need to have privilaged access to ECR, ECS, IAM, EC2, CloudWatch resources.
 
 ## Architecture Diagram
 
